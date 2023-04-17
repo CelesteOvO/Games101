@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.10)
+PROJECT(GAMES101 VERSION 1.0.0 DESCRIPTION "Learn Games101" LANGUAGES CXX)
+find_package(OpenCV REQUIRED)
+set(CMAKE_CXX_STANDARD 17)
+
+add_subdirectory(hw0)
+add_subdirectory(hw1)
+add_subdirectory(hw2)
+add_subdirectory(hw3)
+add_subdirectory(hw4)
+add_subdirectory(hw5)
+add_subdirectory(hw6)
+add_subdirectory(hw7)
